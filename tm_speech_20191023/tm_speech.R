@@ -1,3 +1,8 @@
+library(tm)
+library(wordcloud)
+
+setwd("/home/jtapia/github/ssibd/tm_speech_20191023")
+
 getwd()
 list.files()
 speech_txt <- readChar(con = paste0(getwd(), "/input_speech.txt"),
